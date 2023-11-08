@@ -11,8 +11,8 @@ export default function Home() {
 					<AcmeLogo />
 				</span>
 			</div>
-			<section className="flex md: gap-2 lg:gap-5 h-[calc(100vh-212px)]">
-				<div className="basis-1/3 border-1 flex flex-col justify-center rounded bg-gray-50 px-5 py-5">
+			<section className="flex flex-col md:flex-row md:gap-2 lg:gap-5 h-[calc(100vh-212px)]">
+				<div className="md:basis-1/3 border-1 flex flex-col justify-center rounded bg-gray-50 px-5 py-5">
 					<div>
 						<p className="`${lusitana.className}` text-l text-gray-800 md:text-xl leading-loose md:leading-normal sm:text-sm mb-7 lg:px-10 md:px-3">
 							<strong>Welcome to Acme.</strong> This is the
@@ -33,7 +33,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className="basis-2/3 flex justify-center p-7 sm:px-5 md:px-10 md:py-15">
+				<div className="md:basis-2/3 flex justify-center p-7 sm:px-5 md:px-10 md:py-15">
 					<Image
 						src="/hero-desktop.png"
 						width={1000}
