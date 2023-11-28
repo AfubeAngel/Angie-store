@@ -2,6 +2,8 @@ import Link from "next/link";
 import { lusitana } from "./ui/fonts";
 import Image from "next/image";
 import AcmeLogo from "./ui/acme-logo";
+import { ArrowRightIcon } from '@heroicons/react/24/outline';
+
 
 export default function Home() {
 	return (
@@ -29,7 +31,7 @@ export default function Home() {
 					</div>
 					<div className="border-2 bg-blue-500 text-white flex items-center self-start text-sm hover:bg-blue-400 rounded-lg ml-3 px-5 py-4 md:px-3 lg:ml-9 box-content h-3 w-25 hover:cursor-pointer">
 						<div className="flex gap-4">
-							Log In<span>&#8594;</span>
+							Log In <ArrowRightIcon className="w-5 md:w-6" />
 						</div>
 					</div>
 				</div>
@@ -51,6 +53,6 @@ export default function Home() {
 				</div>
 			</section>
 		</main>
-		//   <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
+		//   <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12 ">
 	);
 }

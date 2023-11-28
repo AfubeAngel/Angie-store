@@ -21,3 +21,5 @@ export default function RootLayout({
     // Tailwind antialised class adds a nice touch to the fonts
   )
 }
+
+
